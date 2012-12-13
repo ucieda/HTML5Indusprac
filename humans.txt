@@ -1,0 +1,15 @@
+/* ucieda.com | un sitio personal para mostrar como protafolio web. -  http://ucieda.com */
+
+
+/* TEAM */
+	Creator: Wilder Ucieda
+	Contact:  wucieda [at] gmail.com
+	twitter: @ucieda
+	From: Cochabamba city, Bolivia
+
+/* SITE */
+	last update: 2012/09/14
+	Language: Español
+	Standars: HTML5, CSS3, JavaScript
+	Componets: jQuery
+	Software: SublimeText2, Notepad++

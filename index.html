@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Sitio con Responsive Web Design en HTML5, CSS3 y jQuery
+	</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Bienvenido a mi portafolio web hecho  en HTML5, CSS y jQuery con Responsive Web Design"/> 
+	<meta name="viewport" content="with=device-width,initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="autor" type="text/plain" href="humans.txt" />
+	<link rel="stylesheet" href="css/flexslider.css" />
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" ></script>
+	<script src="js/jquery.flexslider.js" ></script>
+	<script>
+		$(window).load(function() {
+			$('.flexslider').flexslider();
+		});
+	</script>
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+	<![endif]-->
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="index.html">
+				<img class="fade" alt="indusprac | ecosaludables ..... " src="img/indusprac-logo.png"/>
+			</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="acerca.html">Acerca</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="trabajos.html">Trabajos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="contenido">
+		<section id="principal">
+			<article id="galeria-inicio">
+				<div class="flexslider">
+	    <ul class="slides">
+	    	<li><a href="http://www.eldia.com.bo/index.php?cat=357&pla=3&id_articulo=60117">
+	    		<img src="img/slide-0.jpg" />
+	    		<p class="flex-caption">Miguel Angel en Agropecruz</p>
+	    	</li>
+	    	<li>
+	    		<a href="http://www.eldia.com.bo/index.php?cat=357&pla=3&id_articulo=60117"><img src="img/slide-1.jpg" /></a>
+	    		<p class="flex-caption">Los productos estrella EcoNoni y EcoAcerola</p>
+	    	</li>
+	    	<li>
+	    		<img src="img/slide-2.jpg" />
+	    	</li>
+	    	<li>
+	    		<img src="img/slide-3.jpg" />
+	    	</li>
+	    </ul>
+	  </div>
+				</div>
+			</article>
+		</section>
+		<aside>
+			<!-- Twitter -->
+			<script src="http://platform.twitter.com/widgets.js" ></script>
+			<a href="http://twitter.com/share" class="twitter-share-button" data-text="#indusprac | productos ecosaludables, noni, acerola" data-url="http://www.indusprac.com" data-count="vertical" >Twittear</a>
+			<br /><br />
+			<!-- Facebook -->
+			<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like" data-href="https://www.facebook.com/ecosaludables" data-send="true" data-layout="box_count" data-width="450" data-show-faces="true" data-font="tahoma"></div>
+			<br /> <br /> 
+			<!-- Publicidad -->
+		</aside>
+	</section> 
+	<footer>
+		Barrio Magisterio UV40, Calle Diego de Ampuero MZ41 #3380 591-3274878
+Santa Cruz de la Sierra, Bolivia <a rel="author" href="http://twitter.com/ucieda" target="_blank">@ucieda</a>
+	</footer>
+ 
+</body>
+</html>
